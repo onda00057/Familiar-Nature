@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+
+.global-nav {
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+    top: 0;
+    display: none;
+    height: 5vw;
+    align-items: center;
+}
+
+.global-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.85vw;
+}
+
+.global-nav ul li {
+    padding: 0 2vw;
+}
+
+.global-nav ul li a {
+    color: #323232;
+    font-size: 1.1vw;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.global-nav ul li a:hover {
+    color: #d3a06b;
+    transition: 0.5s;
+}
+
+.nav-border {
+    border-left: solid #323232 0.1vw;
+}
+
+.global-nav ul li a img {
+    width: 3vw;
+    height: auto;
+}
+
+.product-top {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding-top: 20vw;
+}
+
+.product-top h2 {
+    font-size: 2.5vw;
+}
+
+.product-top p {
+    font-size: 1.1vw;
+}
+
+.product-list .sosyoku {
+    width: 35vw;
+    height: auto;
+    position: absolute;
+    top: 25vw;
+    left: 0;
+}
+
+.product-list .sosyoku2 {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product-list {
+    height: 50vw;
+    background-image: url(../images/faq/faq-top.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
+    animation: fadeIn 3s ease 0s 1 normal;
+    -webkit-animation: fadeIn 3s ease 0s 1 normal;
+
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    /* 始め */
+    100% {
+        opacity: 1
+    }
+
+    /* 終わり */
+}
+
+
+
+.faq {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 5vw;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+}
+
+.q {
+    color: #58ACA9;
+    font-weight: 600;
+    font-size: 2vw;
+    padding-right: 2vw;
+}
+
+.a {
+    color: #d3a06b;
+    font-weight: 600;
+    font-size: 2vw;
+    padding-right: 2vw;
+}
+
+.q2 {
+    font-size: 1.1vw;
+    color: #323232;
+}
+
+.a2 {
+    font-size: 1.1vw;
+    color: #323232;
+}
+
+.area {
+    margin-top: 5vw;
+}
+
+
+
+.copy img {
+    width: 60%;
+    height: auto;
+}
+
+.footer-icon a img {
+    width: 10vw;
+    height: auto;
+}
+
+.sns a img {
+    width: 2vw;
+    height: auto;
+    margin-right: 2vw;
+}
+
+.footer-top {
+    margin-top: 10vw;
+}
+
+.copy {
+    display: flex;
+    align-items: flex-end;
+}
+
+.link {
+    margin-left: 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-icon {
+    margin-bottom: 3vw;
+    padding-right: 3vw;
+}
+
+.sns {
+    margin-bottom: 3vw;
+}
